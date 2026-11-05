@@ -1,0 +1,45 @@
+Head Coach: Tad Boyle -> entering his 17th season as head Coach
+
+Roster
+#	Player	Position	Height	Hometown
+0	Ian Inman	G/F	6'6"	Houston, TX
+1	Alex Dickeson	G	6'4"	Adelaide, Australia
+3	Amir Jones	G	6'3"	Studio City, CA
+5	Josiah Sanders	G	6'5"	Denver, CO
+6	David Gomez	F	6'9"	Alcalá de Guadaíra, Spain
+8	Goc Malual	F	6'8"	Sydney, Australia
+11	Jalin Holland	G	6'5"	Los Lunas, NM
+12	Justin Neely	F	6'6"	Miami Beach, FL
+13	Luke Mirhashemi	G	6'5"	Newport Beach, CA
+15	Rider Portela	G	6'6"	Phoenix, AZ
+23	Chase Hill	F	6'7"	San Antonio, TX
+24	Barrington Hargress	G	6'1"	Inglewood, CA
+32	Eric Jacobsen	C	6'11"	Colorado Springs, CO
+33	Iaroslav Niagu	F	7'1"	Krasnodar, Russia
+34	Noah Feddersen	C	6'10"	Menomonie, WI
+41	Nick Randall	F	6'8"	Fort Collins, CO
+
+
+Key Players
+Barrington Hargress — Guard, #24
+One of Colorado's most important returning players. He averaged 14.7 points and 4.5 assists in 2025–26 and provides experienced backcourt leadership.
+
+Justin Neely — Forward, #12
+Transfer from UNC Greensboro. Averaged 17.9 points and 11.5 rebounds in his previous season, making him a major addition to Colorado's frontcourt.
+
+Jalin Holland — Guard, #11
+Returning sophomore who gained starting experience in 2025–26. A young player to watch for continued development.
+
+
+
+Returning Player Stats
+Player	PPG	RPG	APG	FG%	3P%
+Barrington Hargress	14.7	2.2	4.5	53.2	48.1
+Jalin Holland	4.9	2.7	0.8	38.9	27.8
+Josiah Sanders	4.4	2.6	1.7	46.4	12.5
+Ian Inman	4.1	1.0	0.4	41.0	36.7
+Nick Randall	1.0	0.5	0.0	100.0	—
+
+
+
+Tad Boyle Strategy
