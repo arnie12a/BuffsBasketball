@@ -43,3 +43,4 @@ Nick Randall	1.0	0.5	0.0	100.0	—
 
 
 Tad Boyle Strategy
+* all about defense 
