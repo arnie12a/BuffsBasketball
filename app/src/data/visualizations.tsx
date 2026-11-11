@@ -15,10 +15,10 @@ export const visualizations: Visualization[] = [
     title: "NIL Spending vs. Player Height",
     category: "NIL",
     description:
-      "Examining the relationship between estimated NIL roster spending and the average height of the eight most-used players on each Big 12 basketball team.",
+      "Examining the relationship between estimated NIL roster spending and the average height of teams in the  Big 12.",
     image: "visualizations/nil/big12_nil_height.png",
     season: "2026–27",
     methodology:
-      "The eight players with the highest minutes per game were selected for each team. Their heights were averaged and compared with estimated team roster spending from The NIL Standard. Player data was collected from Sports Reference.",
+      "The eight players with the highest minutes per game were selected from each team. Their heights were averaged and compared with estimated team roster spending from The NIL Standard. Player data was collected from Sports Reference.",
   },
 ];

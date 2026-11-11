@@ -46,23 +46,16 @@ function App() {
 
             <h1>Basketball, through the numbers.</h1>
 
-            <p>
-              Exploring NIL spending, player performance,
-              roster construction, and coaching through
-              data-driven visualizations.
-            </p>
           </section>
 
           <section className="gallery-section">
             <div className="section-heading">
               <div>
                 <span className="eyebrow">EXPLORE</span>
-                <h2>Analytics Projects</h2>
+                <h2>Projects</h2>
               </div>
 
-              <span className="project-count">
-                {filtered.length} projects
-              </span>
+              
             </div>
 
             <div className="filter-bar">
