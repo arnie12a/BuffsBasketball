@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import VisualizationCard from "../src/components/visualizationCard";
+import VisualizationCard from "../src/components/VisualizationCard";
 import {
   visualizations,
   type Visualization,
