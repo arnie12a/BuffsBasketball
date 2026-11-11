@@ -1,25 +1,21 @@
-import "./App.css";
-
 function App() {
+  const imagePath = `${import.meta.env.BASE_URL}visualizations/nil/big12_nil_height.png`;
+
   return (
     <div>
-      <header>
-        <h1>College Basketball</h1>
-      </header>
+      <h1>Big 12 NIL Analysis</h1>
 
-      <main>
-        <section>
-        <img
-          src={`${import.meta.env.BASE_URL}visualizations/nil/big12_nil_height.png`}
-          alt="Big 12 NIL Spending vs Player Height"
-          style={{
-            width: "100%",
-            maxWidth: "1400px",
-            height: "auto"
-          }}
-        />
-        </section>
-      </main>
+      <img
+        src={imagePath}
+        alt="Big 12 NIL spending vs average player height"
+        style={{
+          width: "100%",
+          maxWidth: "1400px",
+          height: "auto",
+          display: "block",
+          margin: "0 auto",
+        }}
+      />
     </div>
   );
 }
