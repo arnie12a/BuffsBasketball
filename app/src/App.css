@@ -1,0 +1,8 @@
+.analysis-image {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
