@@ -9,14 +9,15 @@ function App() {
 
       <main>
         <section>
-          <h2>Big 12 NIL Analysis</h2>
-
-
-          <img
-            src={`${import.meta.env.BASE_URL}visualizations/nil/big12_nil_height.png`}
-            alt="Big 12 NIL spending vs average height of top eight contributing players"
-            className="analysis-image"
-          />
+        <img
+          src={`${import.meta.env.BASE_URL}visualizations/nil/big12_nil_height.png`}
+          alt="Big 12 NIL Spending vs Player Height"
+          style={{
+            width: "100%",
+            maxWidth: "1400px",
+            height: "auto"
+          }}
+        />
         </section>
       </main>
     </div>
