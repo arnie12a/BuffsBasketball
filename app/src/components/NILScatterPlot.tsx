@@ -160,6 +160,7 @@ export default function NILScatterPlot({
     placed.map((p) => [p.team, p])
   );
 
+  // this is new
   const xTicks = Array.from(
     {
       length:
