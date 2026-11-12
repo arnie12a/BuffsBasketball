@@ -294,20 +294,8 @@ console.log("Plot data:", plotData);
   // Chart bounds
   // ----------------------------------------------------
 
-  const heights = plotData.map((point) => point.height);
-  const spending = plotData.map((point) => point.spend);
 
-  const xMin = Math.floor(
-    Math.min(72, ...heights) - 1
-  );
 
-  const xMax = Math.ceil(
-    Math.max(84, ...heights) + 1
-  );
-
-  const yMax = Math.ceil(
-    Math.max(20, ...spending) + 3
-  );
 
   // ----------------------------------------------------
   // Render
