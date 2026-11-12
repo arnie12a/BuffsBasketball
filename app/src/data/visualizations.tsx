@@ -1,4 +1,3 @@
-
 export type Visualization = {
   id: string;
   title: string;
@@ -7,18 +6,20 @@ export type Visualization = {
   image: string;
   season: string;
   methodology: string;
+  type?: "image" | "interactive";
 };
 
 export const visualizations: Visualization[] = [
   {
-    id: "big12-nil-height",
-    title: "NIL Spending vs. Player Height",
+    id: "big12-nil-explorer",
+    title: "Big 12 NIL Roster Explorer",
     category: "NIL",
     description:
-      "Examining the relationship between estimated NIL roster spending and the average height of teams in the  Big 12.",
+      "Compare NIL spending and average player height across all 16 Big 12 teams. Explore frontcourt size and customize player selections.",
     image: "visualizations/nil/big12_nil_height.png",
     season: "2026–27",
     methodology:
-      "The eight players with the highest minutes per game were selected from each team. Their heights were averaged and compared with estimated team roster spending from The NIL Standard. Player data was collected from Sports Reference.",
+      "Roster heights and positions are sourced from Sports Reference. Players are ranked using minutes per game. Estimated roster spending comes from The NIL Standard.",
+    type: "interactive",
   },
 ];

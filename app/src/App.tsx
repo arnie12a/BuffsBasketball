@@ -7,6 +7,7 @@ import {
 } from "./data/visualizations";
 
 import "./App.css";
+import Big12NILExplorer from "./components/Big12NILExplorer";
 
 type Category = "All" | "NIL" | "Players" | "Coaching";
 
@@ -114,13 +115,17 @@ function App() {
             {selected.description}
           </p>
 
-          <div className="detail-image-container">
-            <img
-              src={imageUrl(selected.image)}
-              alt={selected.title}
-              className="detail-image"
-            />
-          </div>
+          {selected.type === "interactive" ? (
+            <Big12NILExplorer />
+          ) : (
+            <div className="detail-image-container">
+              <img
+                src={imageUrl(selected.image)}
+                alt={selected.title}
+                className="detail-image"
+              />
+            </div>
+          )}
 
           <div className="detail-information">
             <h2>Methodology</h2>

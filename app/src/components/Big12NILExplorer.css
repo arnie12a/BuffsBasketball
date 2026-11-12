@@ -1,0 +1,317 @@
+
+.nil-explorer {
+    --gold: #cfb87c;
+    --dark-gold: #8d7334;
+    --black: #111111;
+    --border: #e5e0d5;
+    --muted: #626262;
+  
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nil-explorer * {
+    box-sizing: border-box;
+  }
+  
+  .nil-header {
+    padding: 30px;
+    background: var(--black);
+    color: white;
+    border-bottom: 4px solid var(--gold);
+    border-radius: 10px;
+  }
+  
+  .nil-header span {
+    color: var(--gold);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  .nil-header h1 {
+    margin: 12px 0;
+    font-size: clamp(28px, 4vw, 44px);
+  }
+  
+  .nil-header p {
+    max-width: 750px;
+    color: #dddddd;
+    line-height: 1.6;
+  }
+  
+  .nil-modes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
+  }
+  
+  .nil-modes button,
+  .nil-panel-heading button,
+  .nil-player-title button {
+    padding: 11px 16px;
+    border: 1px solid #d5d0c7;
+    border-radius: 7px;
+    background: white;
+    color: var(--black);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .nil-modes button.active {
+    background: var(--black);
+    color: white;
+    border-color: var(--black);
+  }
+  
+  .nil-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    align-items: start;
+    gap: 20px;
+  }
+  
+  .nil-main {
+    min-width: 0;
+  }
+  
+  .nil-panel {
+    min-width: 0;
+    padding: 22px;
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  
+  .nil-panel h2 {
+    margin: 0 0 12px;
+    font-size: 21px;
+  }
+  
+  .nil-panel-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .nil-panel-heading p,
+  .nil-note {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  .nil-chart {
+    width: 100%;
+    min-width: 0;
+    background: white;
+  }
+  
+  .nil-tooltip {
+    padding: 12px;
+    background: var(--black);
+    color: white;
+    border-radius: 7px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  
+  .nil-rankings {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  
+  .nil-rankings button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-width: 0;
+    padding: 12px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .nil-rankings button.selected {
+    border-color: var(--dark-gold);
+    background: #faf6ea;
+  }
+  
+  .nil-sidebar {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .nil-sidebar > label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--dark-gold);
+    font-size: 12px;
+    font-weight: 800;
+  }
+  
+  .nil-sidebar select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: white;
+    font-size: 15px;
+  }
+  
+  .nil-sidebar h2 {
+    margin-top: 25px;
+  }
+  
+  .nil-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .nil-summary > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+    background: #f3f0e9;
+    border-radius: 8px;
+  }
+  
+  .nil-summary small {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .nil-summary strong {
+    font-size: 21px;
+  }
+  
+  .nil-player-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 25px 0 10px;
+  }
+  
+  .nil-player-title h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .nil-player-title button {
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  .nil-player-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nil-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 3px;
+    border-bottom: 1px solid #eeeeee;
+    cursor: pointer;
+  }
+  
+  .nil-player input {
+    accent-color: var(--dark-gold);
+    width: 17px;
+    height: 17px;
+  }
+  
+  .nil-player > span:nth-child(2) {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .nil-player strong {
+    font-size: 13px;
+  }
+  
+  .nil-player small {
+    color: var(--muted);
+    font-size: 11px;
+  }
+  
+  .nil-player > span:last-child {
+    white-space: nowrap;
+    font-size: 13px;
+  }
+  
+  @media (max-width: 1050px) {
+    .nil-layout {
+      grid-template-columns: 1fr;
+    }
+  
+    .nil-sidebar {
+      position: static;
+    }
+  
+    .nil-player-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 20px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .nil-explorer {
+      padding: 12px;
+    }
+  
+    .nil-header {
+      padding: 22px;
+    }
+  
+    .nil-panel {
+      padding: 12px;
+    }
+  
+    .nil-panel-heading {
+      flex-direction: column;
+    }
+  
+    .nil-rankings,
+    .nil-player-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .nil-modes button {
+      flex: 1;
+      font-size: 12px;
+    }
+  }
+  
+
+  .nil-chart {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nil-chart svg {
+    display: block;
+  }
