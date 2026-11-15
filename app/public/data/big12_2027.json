@@ -21,6 +21,7 @@
           "apg": 0.7,
           "spg": 0.7,
           "bpg": 0.3,
+          
           "default_top8": true,
           "default_frontcourt": false
         },
